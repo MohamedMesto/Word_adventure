@@ -1,0 +1,16 @@
+.keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .key {
+    background-color: #818384;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: white;
+  }
+  
