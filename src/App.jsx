@@ -1,4 +1,28 @@
-import { useState } from 'react'
+import './App.css'
+
+function App() {
+ 
+  return (
+ <div className='App'>
+
+<h1>Welcome to Word_Adventure!</h1>
+ </div>
+  )
+}
+
+export default App
+
+
+
+
+
+
+
+
+
+
+
+/* import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -32,4 +56,4 @@ function App() {
   )
 }
 
-export default App
+export default App */

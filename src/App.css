@@ -1,4 +1,36 @@
-#root {
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121213;
+  color: #f8f8f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -40,3 +72,4 @@
 .read-the-docs {
   color: #888;
 }
+ */
