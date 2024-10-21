@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .letter {
+    width: 60px;
+    height: 60px;
+    background-color: #121213;
+    border: 2px solid #3a3a3c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #fff;
+  }
+  
