@@ -1,11 +1,20 @@
 import React from "react";
 
-function Key({ letter, onClick }) {
+export default function Key({
+  isAbsent,
+  isPresent,
+  isCorrect,
+  letter,
+  typeLetter,
+}) {
   return (
-    <button className="key" onClick={() => onClick(letter)}>
+    <div
+      className={`key ${isAbsent && "key--absent"} ${
+        isPresent && "key--present"
+      } ${isCorrect && "key--correct"}`}
+      onClick={() => typeLetter(letter)}
+    >
       {letter}
-    </button>
+    </div>
   );
 }
-
-export default Key;
