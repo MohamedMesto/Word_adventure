@@ -7,10 +7,14 @@
   
   .key {
     background-color: #818384;
-    border: none;
-    padding: 10px;
-    font-size: 1rem;
-    cursor: pointer;
-    color: white;
+    border-radius: 5px;
+    width: 40px;
+    height: 60px;
+    font-size: 1.25rem;
+    transition: background-color 0.3s linear;
+  }
+  
+  .key.enter {
+    width: 80px;
   }
   
