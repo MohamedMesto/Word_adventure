@@ -13,45 +13,51 @@ export default function Keyboard({
 }) {
   return (
     <div className="keyboard">
-      <div className="keyRow">
-        {LETTERS.slice(0, 10).map((letter) => (
-          <Key
-            key={letter}
-            letter={letter}
-            typeLetter={typeLetter}
-            isAbsent={absentLetters.includes(letter)}
-            isPresent={presentLetters.includes(letter)}
-            isCorrect={correctLetters.includes(letter)}
-          />
-        ))}
+      <div className="keyRow ">
+        {LETTERS.slice(0, 10).map((letter) => {
+          return (
+            <Key
+              key={letter}
+              letter={letter}
+              typeLetter={typeLetter}
+              isAbsent={absentLetters.includes(letter)}
+              isPresent={presentLetters.includes(letter)}
+              isCorrect={correctLetters.includes(letter)}
+            />
+          );
+        })}
       </div>
-      <div className="keyRow">
-        {LETTERS.slice(10, 19).map((letter) => (
-          <Key
-            key={letter}
-            letter={letter}
-            typeLetter={typeLetter}
-            isAbsent={absentLetters.includes(letter)}
-            isPresent={presentLetters.includes(letter)}
-            isCorrect={correctLetters.includes(letter)}
-          />
-        ))}
+      <div className="keyRow ">
+        {LETTERS.slice(10, 19).map((letter) => {
+          return (
+            <Key
+              key={letter}
+              letter={letter}
+              typeLetter={typeLetter}
+              isAbsent={absentLetters.includes(letter)}
+              isPresent={presentLetters.includes(letter)}
+              isCorrect={correctLetters.includes(letter)}
+            />
+          );
+        })}
       </div>
-      <div className="keyRow">
-        <div className="key enter" onClick={hitEnter}>
+      <div className="keyRow ">
+        <div className="key enter" onClick={() => hitEnter()}>
           ENTER
         </div>
-        {LETTERS.slice(19, 26).map((letter) => (
-          <Key
-            key={letter}
-            letter={letter}
-            typeLetter={typeLetter}
-            isAbsent={absentLetters.includes(letter)}
-            isPresent={presentLetters.includes(letter)}
-            isCorrect={correctLetters.includes(letter)}
-          />
-        ))}
-        <div className="key backspace" onClick={hitBackspace}>
+        {LETTERS.slice(19, 26).map((letter) => {
+          return (
+            <Key
+              key={letter}
+              letter={letter}
+              typeLetter={typeLetter}
+              isAbsent={absentLetters.includes(letter)}
+              isPresent={presentLetters.includes(letter)}
+              isCorrect={correctLetters.includes(letter)}
+            />
+          );
+        })}
+        <div className="key backspace" onClick={() => hitBackspace()}>
           <svg
             aria-hidden="true"
             xmlns="http://www.w3.org/2000/svg"
