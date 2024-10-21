@@ -1,0 +1,27 @@
+.Word_adventure {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.title {
+  text-transform: capitalize;
+}
+
+.notification {
+  text-align: center;
+  height: 1rem;
+  margin: 1em;
+  color: salmon;
+  font-weight: 600;
+  font-size: 1.25rem;
+
+  &--green {
+    color: #538d4e;
+  }
+}
