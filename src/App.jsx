@@ -1,21 +1,19 @@
-import './App.css'
+
+import React from "react";
+import Word_Adventure from "./components/Word_Adventure";
+
+import "./App.css";
 
 function App() {
- 
   return (
- <div className='App'>
-
-<h1>Welcome to Word Adventure!</h1>
- </div>
-  )
+    <div className="App">
+      <h1>Welcome to Word Adventure!</h1>
+      <Word_Adventure />
+    </div>
+  );
 }
 
-export default App
-
-
-
-
-
+export default App;
 
 
 

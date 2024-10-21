@@ -1,7 +1,8 @@
 import React from "react";
 import Key from "./Key";
 import { LETTERS } from "../data/lettersAndWords";
-import "./Keyboard.scss";
+import "../styles/Keyboard.scss";
+
 
 function Keyboard({ onKeyPress }) {
   return (

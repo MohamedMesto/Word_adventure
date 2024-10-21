@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Row from "./Row";
-import Keyboard from "./Keyboard";
-import { potentialWords } from "../data/lettersAndWords";
-import "./Word_Adventure.scss";
+import Row from "../components/Row"; 
+import Keyboard from "../components/Keyboard"; 
+import { potentialWords } from "../data/lettersAndWords"; 
+import "../styles/Word_Adventure.scss"; 
 
 function Word_Adventure() {
   const [guessedWords, setGuessedWords] = useState([]);
