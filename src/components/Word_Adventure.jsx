@@ -60,6 +60,23 @@ function Word_Adventure() {
         }
     };
 
+    const handleKeyDown = (event) => {
+        if (solutionFound) return;
+    
+        if (LETTERS.includes(event.key)) {
+          typeLetter(event.key);
+          return;
+        }
+    
+        if (event.key === "Enter") {
+          hitEnter();
+          return;
+        }
+    
+        if (event.key === "Backspace") {
+          hitBackspace();
+        }
+      };
 
     const handleLetterInput = (letter) => {
         if (currentGuess.length < 5 && !gameOver) {
