@@ -8,6 +8,14 @@ import { potentialWords, LETTERS } from "../data/lettersAndWords";
 const MAX_GUESSES = 6;
 
 function Word_Adventure() {
+    const [guesses, setGuesses] = useState([
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+        "     ",
+      ]);
     const [targetWord, setTargetWord] = useState("");
     const [guessedWords, setGuessedWords] = useState([]);
     const [currentGuess, setCurrentGuess] = useState("");
