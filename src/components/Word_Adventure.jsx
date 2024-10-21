@@ -23,6 +23,44 @@ function Word_Adventure() {
         );
     }, []);
 
+    const hitEnter = () => {
+        if (activeLetterIndex === 5) {
+          const currentGuess = guesses[activeRowIndex];
+    
+          if (!potentialWords.includes(currentGuess)) {
+            setNotification("NOT IN THE WORD LIST");
+          } else if (failedGuesses.includes(currentGuess)) {
+            setNotification("WORD TRIED ALREADY");
+          } else if (currentGuess === SOLUTION) {
+            setSolutionFound(true);
+            setNotification("WELL DONE");
+            setCorrectLetters([...SOLUTION]);
+          } else {
+            let correctLetters = [];
+    
+            [...currentGuess].forEach((letter, index) => {
+              if (SOLUTION[index] === letter) correctLetters.push(letter);
+            });
+    
+            setCorrectLetters([...new Set(correctLetters)]);
+    
+            setAbsentLetters([
+              ...new Set([
+                ...absentLetters,
+                ...[...currentGuess].filter((letter) => !SOLUTION.includes(letter)),
+              ]),
+            ]);
+    
+            setFailedGuesses([...failedGuesses, currentGuess]);
+            setActiveRowIndex((index) => index + 1);
+            setActiveLetterIndex(0);
+          }
+        } else {
+          setNotification("FIVE LETTER WORDS ONLY");
+        }
+      };
+
+
     const handleLetterInput = (letter) => {
         if (currentGuess.length < 5 && !gameOver) {
             setCurrentGuess(currentGuess + letter);
