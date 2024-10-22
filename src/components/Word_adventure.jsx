@@ -10,7 +10,7 @@ const SOLUTION =
 console.log(SOLUTION);
 
 export default function Word_adventure() {
-  const [guesses, setGuesses] = useState(["     ", "     ", "     ", "     ", "     ", "     ","     ","     ",]);
+  const [guesses, setGuesses] = useState([ "     ", "     ", "     ", "     ","     ","     ",]);
   const [solutionFound, setSolutionFound] = useState(false);
   const [activeLetterIndex, setActiveLetterIndex] = useState(0);
   const [notification, setNotification] = useState("");
