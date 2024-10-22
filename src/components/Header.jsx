@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import "../styles/Header.scss";
 /* import i18n from '../i18n'; // Make sure this path is correct based on your project structure
  */import un2050_logo from '../un2050_logo.png'; // Ensure this path is correct
-import './Header.css';
+
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
