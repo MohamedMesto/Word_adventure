@@ -1,10 +1,13 @@
-![Word Adventure UN2050 Slogan](src/assets/images/favicon/mstile-310x310.png)
+<div align="center">
+  <img src="src/assets/images/favicon/mstile-310x310.png" alt="Word Adventure UN2050 Slogan" />
+</div>
 
+---
 
-![Word Adventure UN2050 Slogan](src/assets/readme_images/readme_bg.png)
+![Word Adventure UN2050 Slogan](src/assets/images/readme_images/readme_bg.png)
 
 # **_Word Adventure UN2050 (Think and play rationally forever) - Project Portfolio 2 - JavaScript_**
-
+ 
  
 **Word Adventure (Inspired by Wordle): A Test of Logic, Language, and Luck**
 
@@ -21,8 +24,13 @@ In conclusion, **Word Adventure** is more than just a game. It's a test of your 
 You can view the live site here - <a href="https://un2050.com/" target="_blank">Word Adventure UN2050</a>
 
 ![Love Cross Words responsive design](src/assets/images/readme_images/devices_un2050.png)
-
+---
 ![Love Cross Words responsive design](src/assets/images/readme_images/devices_un2050_2.png)
+
+---
+
+
+
 
 # React + Vite
 
