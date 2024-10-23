@@ -1,0 +1,64 @@
+.mediahub-container {
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .mediahub-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #bd0d0d;
+    text-decoration: none;
+  }
+  
+  .mediahub-container h2 {
+    font-size: 1.5rem;
+    color: #2909b4;
+    margin-bottom: 1rem;
+  }
+  
+  .mediahub-container a {
+    text-decoration: none;
+  }
+  
+  .mediahub-container a:hover {
+    color: gold;
+  }
+  
+  .mediahub-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+  .mediahub-item iframe {
+    width: 80%;
+    height: 200px;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  @media screen and (min-width: 769px) {
+    .mediahub-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .mediahub-item iframe {
+      height: 300px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .mediahub-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .mediahub-container h2 {
+      font-size: 1.25rem;
+    }
+  
+    .mediahub-item iframe {
+      height: 180px;
+    }
+  }
+  
