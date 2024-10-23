@@ -1,7 +1,7 @@
 // src/components/AboutMe.js
 
 import React from 'react';
-import './AboutMe.css';
+import '../styles/AboutMe.scss';
 import profilePhoto from '../assets/images/aboutme/mmm2050.png';
 
 const AboutMe = () => {
