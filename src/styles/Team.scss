@@ -1,0 +1,84 @@
+.team {
+    padding: 20px;
+  }
+  
+   
+  .team h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: xx-large;
+    font-weight: bold;
+    color: #bd0d0d; /* Set link color */
+    text-decoration: none; /* Remove underline from link */
+  }
+  
+  .team-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px; /* Space between members */
+    justify-content: center; /* Center items horizontally */
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    max-width: 500px; /* Limit width for each member block */
+    margin: 10px; /* Space around each member block */
+    padding: 10px; /* Space inside each member block */
+    border: 1px solid #ddd; /* Border for each member block */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  .team-photo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .member-details {
+    flex-grow: 1;
+  }
+  
+  .member-details h3 {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  .member-details h4 {
+    margin: 5px 0;
+    font-size: 1em;
+    color: #555; /* Slightly lighter color for the title */
+  }
+  
+  .member-details p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #333; /* Darker text color */
+  }
+  
+  .member-details p a {
+    color: black;
+    text-decoration: none;
+    padding: 3px 7px;
+    display: inline-block;
+  }
+  
+  .member-details p a:hover {
+    color: gold;
+    text-decoration: none;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .team-member {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .team-photo {
+      margin-bottom: 10px;
+    }
+  }
+  

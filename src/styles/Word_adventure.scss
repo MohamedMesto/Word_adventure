@@ -3,15 +3,6 @@
   flex-direction: column;
   gap: 5px;
   align-items: center;
-
-  &:focus {
-    outline: none;
-  }
-}
-
-@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800;600");
-
-body {
   margin: 0;
   padding: 0;
   background-color: #121213;
@@ -21,7 +12,25 @@ body {
   align-items: center;
   font-family: "Libre Franklin", sans-serif;
   text-transform: uppercase;
+
+  &:focus {
+    outline: none;
+  }
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800;600");
+
+/* body {
+  margin: 0;
+  padding: 0;
+  background-color: #121213;
+  color: rgb(248, 248, 248);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Libre Franklin", sans-serif;
+  text-transform: uppercase;
+} */
 .title {
   text-transform: capitalize;
 }

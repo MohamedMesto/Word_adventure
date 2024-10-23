@@ -1,14 +1,14 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import project1 from '../assets/images/project/project1.jpg';
-import project2 from '../assets/images/project/project2.jpg';
-import project3 from '../assets/images/project/project3.jpg';
-import project4 from '../assets/images/project/project4.jpg';
-import project5 from '../assets/images/project/project5.jpg';
-import project6 from '../assets/images/project/project6.jpg';
-import project7 from '../assets/images/project/project7.jpg';
-import project8 from '../assets/images/project/project8.jpg';
-import project9 from '../assets/images/project/project9.jpg';
-import '../styles/Projects.scss';
+import React, { useState, useEffect, useCallback } from "react";
+import project1 from "../assets/images/project/project1.jpg";
+import project2 from "../assets/images/project/project2.jpg";
+import project3 from "../assets/images/project/project3.jpg";
+import project4 from "../assets/images/project/project4.jpg";
+import project5 from "../assets/images/project/project5.jpg";
+import project6 from "../assets/images/project/project6.jpg";
+import project7 from "../assets/images/project/project7.jpg";
+import project8 from "../assets/images/project/project8.jpg";
+import project9 from "../assets/images/project/project9.jpg";
+import "../styles/Projects.scss";
 
 const Projects = () => {
   const projects = [
