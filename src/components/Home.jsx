@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react';
-import un2050_logo from '../assets/images/home/un2050_logo.png';
-import image2 from '../assets/images/home/logo2.png'; // Import additional images
-import image3 from '../assets/images/home/logo3.png';
-import image4 from '../assets/images/home/logo4.png';
-import image5 from '../assets/images/home/logo5.png';
+import React, { useState, useEffect } from "react";
+import un2050_logo from "../assets/images/home/un2050_logo.png";
+import image2 from "../assets/images/home/logo2.png"; // Import additional images
+import image3 from "../assets/images/home/logo3.png";
+import image4 from "../assets/images/home/logo4.png";
+import image5 from "../assets/images/home/logo5.png";
 
-import '../styles/Header.scss';
-import { Link } from 'react-router-dom';
+import "../styles/Home.scss";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   const images = [un2050_logo, image2, image3, image4, image5];

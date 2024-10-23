@@ -1,0 +1,109 @@
+.projects-page {
+  padding: 2ch;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers the projects */
+  gap: 20px; /* Space between projects */
+}
+
+.project {
+  width: 30%; /* Display 3 projects at a time on larger screens */
+  text-align: center;
+  padding: 0.6%;
+  
+}
+
+.project img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  
+  
+}
+
+.project a{
+  text-decoration: none; 
+  color: #bd0d0d;
+}
+
+.project a:hover{
+  text-decoration: none; 
+  color: gold;
+}
+
+
+.justified-text {
+  text-align: justify;
+}
+
+.projects-page h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #bd0d0d;
+  text-decoration: none;
+}
+
+.carousel-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.carousel-button {
+  background-color: #bd0d0d;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: large;
+}
+
+.carousel-button:hover {
+  background-color: #a00c1c;
+}
+
+.website-name {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #bd0d0d;
+  margin-top: 10px;
+}
+
+.website-name a {
+  text-decoration: none;
+  color: #bd0d0d;
+}
+
+.website-name a:hover {
+  color: gold;
+}
+
+
+
+/* Responsive design for mobile devices */
+@media screen and (max-width: 768px) {
+  .project {
+    width: 80%; /* Display 1 project at a time on tablets and small screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .project {
+    width: 100%; /* Display 1 project at a time on mobile devices */
+  }
+
+  .title_text {
+    font-size: large; /* Adjust title size for smaller screens */
+  }
+
+  .carousel-button {
+    padding: 8px 16px; /* Adjust button padding for smaller screens */
+    font-size: medium;
+  }
+}

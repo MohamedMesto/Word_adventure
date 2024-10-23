@@ -1,104 +1,101 @@
 /* Home.css */
 
 .home {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height:50vh;
-    flex-direction: column;
-    text-align: center;
-  }
-  
-  .un2050_logo {
-    width: 100%;
-    margin: 10px;
-    text-align: center;
-    padding: 0.3%;
-  }
-  
-  .un2050_logo img {
-    width: 100%;
-    max-width: 650px;
-    height: auto;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-    margin: 0 auto;
-  }
-  
-  .justified-text {
-    font-size: large;
-    text-align: justify;
-    margin-top: 20px;
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .home h2 {
-    font-size: xx-large;
-    font-weight: bold;
-    color: #bd0d0d;
-    text-decoration: none;
-  }
-  
-  h2 a {
-    color: #bd0d0d;
-    text-decoration: none;
-  }
-  
-  h2 a:hover {
-    color: gold;
-    text-decoration: none;
-  }
-  
-  .image-indicators {
-    margin-top: 20px;
-  }
-  
-  .indicator {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 0 5px;
-    background-color: #bd0d0d;
-    border-radius: 50%;
-    opacity: 0.5;
-    cursor: pointer; /* Add pointer cursor to indicate clickability */
-  }
-  
-  .indicator.active {
-    opacity: 1;
-  }
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height:50vh;
+  flex-direction: column;
+  text-align: center;
+}
 
+.un2050_logo {
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  padding: 0.3%;
+}
 
+.un2050_logo img {
+  width: 100%;
+  max-width: 650px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.justified-text {
+  font-size: large;
+  text-align: justify;
+  margin-top: 20px;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home h2 {
+  font-size: xx-large;
+  font-weight: bold;
+  color: #bd0d0d;
+  text-decoration: none;
+}
+
+h2 a {
+  color: #bd0d0d;
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+.image-indicators {
+  margin-top: 20px;
+}
+
+.indicator {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 0 5px;
+  background-color: #bd0d0d;
+  border-radius: 50%;
+  opacity: 0.5;
+  cursor: pointer; /* Add pointer cursor to indicate clickability */
+}
+
+.indicator.active {
+  opacity: 1;
+}
 
 /* Responsive Design */
 @media screen and (max-width: 768px) {
-    .home {
-      padding: 10px;
-      text-align: center;
-      min-height: auto;
-    }
-  
-    .un2050_logo img {
-      width: 100%;
-      max-width: 100%;
-      height: auto;
-    }
-  
-    .justified-text {
-      font-size: medium;
-      margin-top: 10px;
-    }
-  
-    .title_text {
-      font-size: large;
-    }
-  
-    h2 a {
-      font-size: medium;
-    }
+  .home {
+    padding: 10px;
+    text-align: center;
+    min-height: auto;
   }
-  
+
+  .un2050_logo img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .justified-text {
+    font-size: medium;
+    margin-top: 10px;
+  }
+
+  .title_text {
+    font-size: large;
+  }
+
+  h2 a {
+    font-size: medium;
+  }
+}

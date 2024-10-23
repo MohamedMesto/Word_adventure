@@ -1,13 +1,13 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import linkedin from '../assets/images/footer/linkedin.png';
-import xing from '../assets/images/footer/xing.png';
-import github from '../assets/images/footer/github.png';
-import youtube from '../assets/images/footer/youtube.jpeg';
-import telegram from '../assets/images/footer/telegram.png';
-import haendlerbund from '../assets/images/footer/haendlerbund.png'; // Import the Händlerbund image
+import React from "react";
+import { NavLink } from "react-router-dom";
+import linkedin from "../assets/images/footer/linkedin.png";
+import xing from "../assets/images/footer/xing.png";
+import github from "../assets/images/footer/github.png";
+import youtube from "../assets/images/footer/youtube.jpeg";
+import telegram from "../assets/images/footer/telegram.png";
+import haendlerbund from "../assets/images/footer/haendlerbund.png"; // Import the Händlerbund image
 
-import '../styles/Footer.css';
+import "../styles/Footer.scss";
 
 const Footer = () => {
   return (
