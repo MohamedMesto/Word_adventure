@@ -12,7 +12,7 @@ import Team from "./components/Team";
 import AboutMe from "./components/AboutMe";
 import Portfolio from "./components/Portfolio";
 import MediaHub from "./components/MediaHub";
-// import Contact from "./components/Contact";
+import Contact from "./components/Contact";
 
 
 function App() {
@@ -29,7 +29,7 @@ function App() {
             <Route path="/about-me" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/mediahub" element={<MediaHub />} />
-            {/* <Route path="/contact" element={<Contact />} /> */}
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
         <Footer />
