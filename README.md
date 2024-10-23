@@ -2,6 +2,7 @@
   <img src="src/assets/images/favicon/mstile-310x310.png" alt="Word Adventure UN2050 Slogan" />
 </div>
 
+
 ---
 
 ![Word Adventure UN2050 Slogan](src/assets/images/readme_images/readme_bg.png)
