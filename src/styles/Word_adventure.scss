@@ -49,7 +49,7 @@
 }
 
 .new-game-button {
-  background-color: #4caf50; /* Green background */
+  background-color: #E91111; /* Green background */
   color: white; /* White text */
   padding: 10px 20px; /* Padding around the button */
   border: none; /* Remove border */
@@ -59,6 +59,7 @@
   font-weight: bold; /* Bold text */
   transition: background-color 0.3s ease; /* Smooth transition for hover effect */
   margin-top: 20px; /* Spacing from the top */
+  margin-bottom: 10px;
 }
 
 /* Add hover effect */
@@ -66,7 +67,7 @@
   background-color: #45a049; /* Darker green on hover */
 }
 
-/* Add some additional styling if needed */
+
 .new-game-button:focus {
   outline: none; /* Remove default browser outline on focus */
   box-shadow: 0 0 5px rgba(0, 255, 0, 0.6); /* Subtle green shadow on focus */
