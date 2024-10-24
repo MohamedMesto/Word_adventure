@@ -62,8 +62,9 @@ You can view the live site here - <a href="https://un2050.com/" target="_blank">
   - [Navigation](#navigation)
   - [Home Page](#home-page)
     - [Word Adventure UN2050 Game Page](#word-adventure-un2050-game-page)
-    - [Answer Section](#answer-section)
-    - [Check CrossWords Puzzle Result Section (Button)](#check-crosswords-puzzle-result-section-button)
+    - [Keyboard Section](#keyboard-section)
+- [Future Features](#future-features)
+  - [Technologies Used](#technologies-used)
 - [React + Vite](#react--vite)
 
 
@@ -224,6 +225,19 @@ The navigation menu is featured at the top of the page and contains links to the
 
  
  
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### Word Adventure UN2050 Game Page
  
 ![Word Adventure UN2050 Game Page](src/assets/images/readme_images/wa_area.png)
@@ -242,31 +256,16 @@ The navigation menu is featured at the top of the page and contains links to the
 
 
 
-### Answer Section
-
-![Answer Section](src/assets/images/readme_images/answer_section.png)
 
 
 
 
 
+![Word Adventure UN2050 Game Page](src/assets/images/readme_images/mobile_wa_area.png)
+ 
 
 
-
-
-
-
-
-
-
-
-
-### Check CrossWords Puzzle Result Section (Button)
-
-
-
-
-![Check Section](src/assets/images/readme_images/check_section.png)
+ 
  
 
 
@@ -275,9 +274,64 @@ The navigation menu is featured at the top of the page and contains links to the
 
 
 
+### Keyboard Section
+
+![Answer Section](src/assets/images/readme_images/Keyboard_section.png)
+
+
+ 
 
 
 
+[Back to top](<#contents>)
+
+
+  
+
+# Future Features
+
+
+
+1. **Expanded Word Database:** Introduce a more extensive vocabulary database, incorporating a broader range of words, including uncommon and specialized terms. This enhancement will challenge users further and promote vocabulary growth, ensuring players encounter a diverse array of words during gameplay.
+
+2. **Themed Daily Challenges:** Implement daily challenges centered around specific themes, such as historical figures, geography, or science. These challenges will provide players with a unique twist each day, allowing them to learn and explore various topics while playing.
+
+3. **Multiplayer Mode:** Foster a sense of community and competition by incorporating a multiplayer mode. Users can challenge friends or connect with word enthusiasts worldwide, engaging in collaborative word-solving or competing for the fastest completion times. This social feature adds a dynamic and interactive dimension to the game.
+
+4. **Personalized User Profiles and Achievements:** Enhance user engagement by introducing personalized profiles where players can track their progress and achievements. Users can earn badges for completing specific challenges or reaching milestones, adding a gamification element that motivates players to explore and conquer new word puzzles.
+
+5. **Adaptive Difficulty Levels:** Implement an adaptive difficulty system that adjusts the game's challenge based on players’ performance. This feature will ensure that both newcomers and seasoned players have an engaging experience, promoting continuous learning and skill improvement.
+
+6. **Interactive Tutorial and Hints:** Develop an interactive tutorial for new players to quickly grasp the game mechanics and strategies. Additionally, offer hint options for players who may be struggling, helping them learn without sacrificing the challenge of the game.
+
+7. **Global Leaderboards:** Introduce leaderboards to track and showcase players' performance across the community. This feature will encourage friendly competition and allow users to see how they rank against others, fostering a sense of achievement and motivation.
+ 
+
+
+Sure! Here’s an updated version of the **Technologies Used** section tailored to fit your **Word Adventure** project. This version emphasizes technologies relevant to game development, user interface design, and deployment:
+
+---
+
+## Technologies Used
+
+- **HTML5:** Provides the fundamental structure and content for the Word Adventure website.
+- **CSS3:** Delivers the styling and layout, ensuring a visually appealing and responsive design for an enhanced user experience.
+- **JavaScript (JS):** Implements the game logic, interactivity, and functionality, enabling users to engage with the word puzzle dynamically.
+- **[React](https://reactjs.org/):** Utilized for building the user interface, allowing for efficient component-based development and state management.
+- **[Vite](https://vitejs.dev/):** A modern frontend build tool used for fast development and optimized production builds, ensuring quick loading times and a smooth user experience.
+- **[Adobe XD](https://www.adobe.com/ie/products/xd.html):** Employed to create wireframes and prototypes for the website, facilitating user experience design and testing.
+- **[Adobe Illustrator](https://www.adobe.com/ie/products/illustrator.html):** Used for designing the logo and social media assets, enhancing the brand identity of Word Adventure.
+- **[Adobe Photoshop](https://www.adobe.com/ie/products/photoshop.html):** Utilized to resize images and export them as progressive JPEG files for optimal web performance.
+- **[Adobe Color](https://color.adobe.com/create/color-contrast-analyzer):** Applied to test color contrast and ensure accessibility with a color-blind safe palette.
+- **[Adobe Lightroom](https://www.adobe.com/ie/products/photoshop-lightroom.html):** Used to optimize and resize images for better visual quality on screens.
+- **[I love IMG](https://www.iloveimg.com/de):** A tool used for further compressing optimized images to reduce load times.
+- **Visual Studio Code:** The primary code editor used for development, providing a rich environment with extensions for better productivity.
+- **Git Bash:** A terminal tool used to manage version control and push changes to the GitHub repository.
+- **GitHub:** Utilized for hosting and deploying the website, ensuring version control and collaboration among team members.
+
+---
+
+Feel free to modify any items or add additional technologies that align with your project!
 
 
 # React + Vite
