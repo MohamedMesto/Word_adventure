@@ -348,24 +348,20 @@ Sure! Here’s an updated version of the **Technologies Used** section tailored 
 [Back to top](<#contents>)
 
 
-
-
-
-
-
-
+ 
 
 # Testing
 
 ## Code Validation
 
-Love Cross Words has been validated via W3C HTML Validator and the W3C CSS Validator. There were 1 minor errors that came up for home page. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
+Word Adventure has been validated via W3C HTML Validator and the W3C CSS Validator. There were 1 minor errors that came up for home page. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
 
 ![W3C HTML Validator](src/assets/images/readme_images/html-validator.png)
 
 For Style.css and Style_cr.css files.
 
 ![W3C CSS Validator](src/assets/images/readme_images/css-validator1.png)
+
 ![W3C CSS Validator](src/assets/images/readme_images/css-validator2.png)
 
 For script_desc.js and script_fn.js
