@@ -35,6 +35,15 @@
   text-transform: capitalize;
 }
 
+.title a {
+  color: #E91111;
+  text-decoration: none;
+}
+.title a:hover {
+  color: gold;
+  text-decoration: none;
+}
+
 .notification {
   text-align: center;
   height: 1rem;
