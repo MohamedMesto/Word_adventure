@@ -55,6 +55,8 @@ You can view the live site here - <a href="https://un2050.com/" target="_blank">
 - [Objective](#objective)
 - [User Experience (UX)](#user-experience-ux)
   - [Target Audience](#target-audience)
+  - [User Stories](#user-stories)
+  - [Site Aims](#site-aims)
 - [React + Vite](#react--vite)
 
 
@@ -67,6 +69,38 @@ The goal of Word Adventure is to offer players a fun yet mentally stimulating wo
 # User Experience (UX)
 
 ## Target Audience
+ 
+Word Adventure is designed for a diverse audience that enjoys mental challenges and linguistic exploration. It appeals to crossword enthusiasts of all ages—seasoned wordplay fans seeking daily brain workouts and beginners eager for intellectual discovery. The user-friendly interface ensures accessibility for casual gamers and dedicated solvers alike. With varying difficulty levels, our game invites anyone interested in enhancing vocabulary and problem-solving skills. Whether you’re a crossword connoisseur or a newcomer, Word Adventure offers an engaging platform for all word lovers.
+
+
+[Back to top](<#contents>)
+
+
+## User Stories
+
+- A user should immediately understand the purpose of the **Word Adventure** game.
+- A user should be able to navigate the game easily and intuitively.
+- A user should clearly identify the aim of each section within the game.
+- A user should have access to information about mental stimulation and motivation.
+- A user should feel comfortable using the solve feature when unable to guess the correct word.
+
+## Site Aims
+
+1. **Architectural Education:** The application serves as an educational platform, introducing users to architectural terminology, styles, and landmarks through engaging crossword puzzles.
+
+2. **Promoting Cultural Awareness:** The puzzles feature architectural wonders from various cultures, enriching users' knowledge and promoting appreciation for diverse design influences.
+
+3. **Skill Development:** The game enhances problem-solving skills by challenging users to decipher clues and recall architectural concepts, stimulating cognitive abilities.
+
+4. **Entertainment with a Purpose:** While entertaining, the game provides educational content related to architecture, balancing enjoyment with learning.
+
+5. **Community Building:** The application fosters a community of architecture enthusiasts, allowing users to share achievements, discuss topics, and engage in collaborative puzzle-solving challenges.
+
+ 
+[Back to top](<#contents>)
+
+
+
 
 
 # React + Vite
