@@ -16,10 +16,7 @@
 ---
  
 <div>
-  <a href="https://un2050.com/WordsAdventure">
-    <h1 style="color: #E91111">
-      <strong>Word Adventure UN2050 (Think and play rationally forever)</strong> - Project Portfolio 2 - JS
-    </h1>
+  <a href="https://un2050.com/WordsAdventure"><h1 style="color: #E91111">      <strong>Word Adventure UN2050 (Think and play rationally forever)</strong> - Project Portfolio 2 - JS</h1>
   </a>
 </div>
 
@@ -57,6 +54,11 @@ You can view the live site here - <a href="https://un2050.com/" target="_blank">
   - [Target Audience](#target-audience)
   - [User Stories](#user-stories)
   - [Site Aims](#site-aims)
+  - [Site Structure](#site-structure)
+  - [Design Choices](#design-choices)
+    - [Colour Scheme](#colour-scheme)
+    - [Typography](#typography)
+- [Features](#features)
 - [React + Vite](#react--vite)
 
 
@@ -105,6 +107,67 @@ Word Adventure is designed for a diverse audience that enjoys mental challenges 
 
  
 [Back to top](<#contents>)
+
+## Site Structure
+
+ 
+
+**Word Adventure** is part of a larger site structure that includes various sections, as seen on the navigation bar:
+
+1. **Home Page:** A welcoming page featuring a general introduction and navigation links.
+2. **Words Adventure Page:** The game interface where users can play the Word Adventure game.
+   1. **Game Title**: "Word Adventure UN2050" prominently displayed at the top.
+   2. **Instructions**: Clearly explains that green letters are in the correct position, while orange letters are correct but in the wrong position.
+   3. **Game Grid**: Players attempt to guess a five-letter word in six tries. The grid shows previous guesses with color-coded feedback.
+   4. **Keyboard**: Below the grid is an on-screen QWERTY keyboard for input, along with "Enter" and "New Game" buttons for control.
+   5. This concise layout emphasizes simplicity and ease of use.
+3. **Our Projects, Team, and Portfolio:** These sections provide more information about the development team, projects, and featured work.
+
+The layout is intuitive, with easy access to all sections via the top navigation bar.
+
+[Back to top](<#contents>)
+
+## Design Choices
+
+### Colour Scheme
+ 
+
+The color scheme of Word Adventure is designed for clarity and user engagement. The interface uses a dark background (#121213) to reduce eye strain and make key elements stand out. Green (#538D4E) highlights correct letters, while orange (#B59F3B) indicates misplaced letters, providing immediate feedback. The New Game and Backspace buttons are highlighted in red (#C50E1F) for visibility, ensuring easy access to these essential controls. The overall color palette creates a visually appealing, focused gameplay experience.
+
+
+
+  
+  
+![Colour palette image of 5 colours](src/assets/images/readme_images/colour_palette_lyb.png)
+
+
+![Colour palette image of 5 colours](src/assets/images/readme_images/colour_palette_lyb2.png)
+
+
+ 
+
+
+### Typography
+
+
+The typography of Word Adventure is crafted for simplicity and readability. A clean sans-serif font is used throughout the interface, ensuring a modern and approachable feel. The text appears in contrasting colors—typically light text on a dark background (#121213)—to reduce eye strain and enhance focus. This choice not only supports a smooth gameplay experience but also allows players to focus entirely on guessing the correct word. The well-defined typography aligns with the game’s intuitive and user-friendly design.
+
+[Back to top](<#contents>)
+
+# Features
+
+Welcome to Word Adventure, where every guess brings you closer to victory! The game interface is straightforward and intuitive. The logo is positioned on the top left, linking back to the home page. The main game area invites players to guess five-letter words, offering six tries to find the correct answer. Below the game grid, the on-screen keyboard and controls—including New Game and Backspace buttons—are clearly visible. Whether using a mouse or keyboard, Word Adventure promises a seamless and engaging experience.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
