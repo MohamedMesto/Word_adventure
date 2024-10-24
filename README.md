@@ -59,6 +59,11 @@ You can view the live site here - <a href="https://un2050.com/" target="_blank">
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
 - [Features](#features)
+  - [Navigation](#navigation)
+  - [Home Page](#home-page)
+    - [Word Adventure UN2050 Game Page](#word-adventure-un2050-game-page)
+    - [Answer Section](#answer-section)
+    - [Check CrossWords Puzzle Result Section (Button)](#check-crosswords-puzzle-result-section-button)
 - [React + Vite](#react--vite)
 
 
@@ -134,7 +139,7 @@ The layout is intuitive, with easy access to all sections via the top navigation
 
 The color scheme of Word Adventure is designed for clarity and user engagement. The interface uses a dark background (#121213) to reduce eye strain and make key elements stand out. Green (#538D4E) highlights correct letters, while orange (#B59F3B) indicates misplaced letters, providing immediate feedback. The New Game and Backspace buttons are highlighted in red (#C50E1F) for visibility, ensuring easy access to these essential controls. The overall color palette creates a visually appealing, focused gameplay experience.
 
-
+[Back to top](<#contents>)
 
   
   
@@ -145,7 +150,7 @@ The color scheme of Word Adventure is designed for clarity and user engagement. 
 
 
  
-
+[Back to top](<#contents>)
 
 ### Typography
 
@@ -158,9 +163,111 @@ The typography of Word Adventure is crafted for simplicity and readability. A cl
 
 Welcome to Word Adventure, where every guess brings you closer to victory! The game interface is straightforward and intuitive. The logo is positioned on the top left, linking back to the home page. The main game area invites players to guess five-letter words, offering six tries to find the correct answer. Below the game grid, the on-screen keyboard and controls—including New Game and Backspace buttons—are clearly visible. Whether using a mouse or keyboard, Word Adventure promises a seamless and engaging experience.
 
+## Navigation
+The navigation menu is featured at the top of the page and contains links to the main content sections:
+- **Logo:** Centered in the navigation bar, the logo links back to the homepage.
+- **Responsive Design:** Three variations of the navigation bar are provided for different screen sizes. Each variation maintains consistent color and design styles, while the structure adapts to ensure a smooth user experience across devices.
+
+ 
+
+![Desktop Navbar](src/assets/images/readme_images/navbar-desktop.png)
+
+ 
+![Mobile Navbar](src/assets/images/readme_images/navbar-mobile.png)
+
+## Home Page
+
+![Desktop Homepage](src/assets/images/readme_images/home-page1.png)
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+![Desktop Homepage](src/assets/images/readme_images/home-page2.png) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Desktop Homepage](src/assets/images/readme_images/home-page3.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+![Desktop Homepage](src/assets/images/readme_images/mobile-home-page.png)
+
+ 
+ 
+### Word Adventure UN2050 Game Page
+ 
+![Word Adventure UN2050 Game Page](src/assets/images/readme_images/wa_area.png)
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Answer Section
+
+![Answer Section](src/assets/images/readme_images/answer_section.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Check CrossWords Puzzle Result Section (Button)
+
+
+
+
+![Check Section](src/assets/images/readme_images/check_section.png)
+ 
 
 
 
