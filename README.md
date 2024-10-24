@@ -76,25 +76,32 @@ Word Adventure is designed for a diverse audience that enjoys mental challenges 
 [Back to top](<#contents>)
 
 
+ 
+
 ## User Stories
 
-- A user should immediately understand the purpose of the **Word Adventure** game.
-- A user should be able to navigate the game easily and intuitively.
+- A user should be able to understand the purpose of **Word Adventure** immediately.
+- A user should be able to easily and intuitively navigate the game interface.
 - A user should clearly identify the aim of each section within the game.
-- A user should have access to information about mental stimulation and motivation.
-- A user should feel comfortable using the solve feature when unable to guess the correct word.
+- A user should easily learn about mental stimulation and motivation.
+- A user should feel comfortable using the "solve" feature if they cannot guess the correct word.
+- A user should be able to guess a five-letter word within six attempts.
+- A user should see visual feedback, with letters highlighted in green (correct position) or orange (incorrect position).
+- A user should be able to enter guesses using buttons or a keyboard.
+- A user should be able to start a new game with a single click.
+- A user should be informed when they have exhausted their six attempts without revealing the correct word.
 
 ## Site Aims
 
-1. **Architectural Education:** The application serves as an educational platform, introducing users to architectural terminology, styles, and landmarks through engaging crossword puzzles.
+1. **Engaging Word Play:** The primary aim of **Word Adventure** is to provide an engaging and enjoyable word puzzle experience, encouraging users to enhance their vocabulary and language skills.
 
-2. **Promoting Cultural Awareness:** The puzzles feature architectural wonders from various cultures, enriching users' knowledge and promoting appreciation for diverse design influences.
+2. **Cognitive Development:** The game aims to stimulate cognitive abilities by challenging players to think critically and recognize patterns as they decipher the hidden words.
 
-3. **Skill Development:** The game enhances problem-solving skills by challenging users to decipher clues and recall architectural concepts, stimulating cognitive abilities.
+3. **User Empowerment:** By offering a user-friendly interface, the game empowers players of all skill levels to engage with word puzzles comfortably and confidently.
 
-4. **Entertainment with a Purpose:** While entertaining, the game provides educational content related to architecture, balancing enjoyment with learning.
+4. **Social Interaction:** **Word Adventure** encourages players to share their achievements and experiences, fostering a community of word enthusiasts who can connect over their love of language.
 
-5. **Community Building:** The application fosters a community of architecture enthusiasts, allowing users to share achievements, discuss topics, and engage in collaborative puzzle-solving challenges.
+5. **Entertainment and Learning:** While primarily a game, **Word Adventure** seeks to blend entertainment with educational value, making learning new words a fun and rewarding experience.
 
  
 [Back to top](<#contents>)
