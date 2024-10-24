@@ -119,7 +119,7 @@ export default function Word_adventure() {
 
   const hitReset = () => {
     // Refreshes the page and redirects to a new game URL
-    window.location.replace('https://un2050.com/WordsAdventure');
+    window.location.replace('/WordsAdventure');
   };
 
 
