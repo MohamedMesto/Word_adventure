@@ -317,12 +317,7 @@ The navigation menu is featured at the top of the page and contains links to the
 
 7. **Global Leaderboards:** Introduce leaderboards to track and showcase players' performance across the community. This feature will encourage friendly competition and allow users to see how they rank against others, fostering a sense of achievement and motivation.
  
-
-
-Sure! Here’s an updated version of the **Technologies Used** section tailored to fit your **Word Adventure** project. This version emphasizes technologies relevant to game development, user interface design, and deployment:
-
----
-
+ 
 ## Technologies Used
 
 - **HTML5:** Provides the fundamental structure and content for the Word Adventure website.
