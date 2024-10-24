@@ -1,11 +1,20 @@
 <div align="center">
+<a href="https://un2050.com/">
   <img src="src/assets/images/favicon/mstile-310x310.png" alt="Word Adventure UN2050 Slogan" />
+  </a>
+  </div>
+
+---
+  <div>
+  <a href="https://un2050.com/WordsAdventure">
+  <img src="src/assets/images/readme_images/readme_bg.png" alt="Word Adventure UN2050 Slogan">
+</a>
 </div>
 
 
----
 
-![Word Adventure UN2050 Slogan](src/assets/images/readme_images/readme_bg.png)
+---
+ 
 
 # **_Word Adventure UN2050 (Think and play rationally forever) - Project Portfolio 2 - JavaScript_**
  

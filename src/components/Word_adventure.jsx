@@ -115,15 +115,16 @@ export default function Word_adventure() {
     window.location.reload(); // Refreshes the page
   }; */
 
+ 
 
 
   const hitReset = () => {
-    // Refreshes the page and redirects to a new game URL
-    window.location.replace('/WordsAdventure');
+    const baseUrl = window.location.host.includes('localhost')
+      ? 'http://localhost:5173/' // or your local dev URL
+      : 'https://un2050.com/WordsAdventure';
+  
+    window.location.replace(baseUrl);
   };
-
-
-
 
 
 
