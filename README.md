@@ -351,20 +351,23 @@ The navigation menu is featured at the top of the page and contains links to the
 
 Word Adventure has been validated via W3C HTML Validator and the W3C CSS Validator. There were 1 minor errors that came up for home page. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
 
-![W3C HTML Validator](src/assets/images/readme_images/html-validator.png)
+![W3C HTML Validator](src/assets/images/readme_images/html_validator.png)
 
-For Style.css and Style_cr.css files.
-
-![W3C CSS Validator](src/assets/images/readme_images/css-validator1.png)
-
-![W3C CSS Validator](src/assets/images/readme_images/css-validator2.png)
-
-For script_desc.js and script_fn.js
-
-![W3C JS Validator](src/assets/images/readme_images/js-validator.png)
  
 
-## Lighthouse Testing
+For Styles files.
+
+![W3C CSS Validator](src/assets/images/readme_images/css_validator1.png)
+ 
+ 
+ 
+  
+For jsx files. 
+
+![W3C JS Validator](src/assets/images/readme_images/js_validator.png)
+  
+
+## Lighthouse Testing 
 
 The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings; Performance, Accessibility, Best Practices and it tests it under mobile and desktop criteria.
 
