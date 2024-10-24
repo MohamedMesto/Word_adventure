@@ -25,8 +25,7 @@
 
  
  
-**Word Adventure (Inspired by Wordle): A Test of Logic, Language, and Luck**
-
+# **_Word Adventure (Inspired by Wordle): A Test of Logic, Language, and Luck_**
 Much like crosswords, **Word Adventure** (a take on the popular Wordle game) offers players a unique blend of mental challenges and fun. The premise is deceptively simple: guess a hidden five-letter word within six attempts. But beneath that simplicity lies a deeply engaging game of logic, language, and luck.
 
 At its core, **Word Adventure** encourages players to think critically. Each guess provides feedback on which letters are correct and whether they're in the right position. This clue system fosters a problem-solving mindset, where players must adjust their strategy with each guess. It’s an exercise in deductive reasoning, requiring players to continuously refine their approach based on the results of previous guesses. 
@@ -40,12 +39,34 @@ In conclusion, **Word Adventure** is more than just a game. It's a test of your 
 You can view the live site here - <a href="https://un2050.com/" target="_blank">Word Adventure UN2050</a>
 
 ![Word Adventure responsive design](src/assets/images/readme_images/devices_un2050.png)
+
 ---
 ![Word Adventure responsive design](src/assets/images/readme_images/devices_un2050_2.png)
 
 ---
 ![Word Adventure responsive design](src/assets/images/readme_images/devices_un2050_3.png)
  
+
+
+# Contents
+
+- [**_Word Adventure (Inspired by Wordle): A Test of Logic, Language, and Luck_**](#word-adventure-inspired-by-wordle-a-test-of-logic-language-and-luck)
+- [Contents](#contents)
+- [Objective](#objective)
+- [User Experience (UX)](#user-experience-ux)
+  - [Target Audience](#target-audience)
+- [React + Vite](#react--vite)
+
+
+# Objective
+
+The goal of Word Adventure is to offer players a fun yet mentally stimulating word puzzle experience. By challenging players to guess hidden five-letter words with limited attempts, the game fosters a balance of entertainment and intellectual engagement. Our primary objective is to enhance users' vocabulary, critical thinking, and pattern recognition skills, all while delivering a rewarding experience through an intuitive and sleek interface. Whether users are looking for a quick mental break or a daily word challenge, Word Adventure provides a platform that caters to all levels of word enthusiasts. It encourages players to explore the depth of their language knowledge, promoting learning and enjoyment through every guessed word.
+
+[Back to top](<#contents>)
+
+# User Experience (UX)
+
+## Target Audience
 
 
 # React + Vite
