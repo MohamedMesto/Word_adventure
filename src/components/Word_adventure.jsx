@@ -10,7 +10,7 @@ const SOLUTION =
 console.log(SOLUTION);
 
 export default function Word_adventure() {
-  const [guesses, setGuesses] = useState([ "     ", "     ", "     ", "     ","     ","     ",]);
+  const [guesses, setGuesses] = useState(["     ", "     ", "     ", "     ", "     ", "     ",]);
   const [solutionFound, setSolutionFound] = useState(false);
   const [activeLetterIndex, setActiveLetterIndex] = useState(0);
   const [notification, setNotification] = useState("");
@@ -111,13 +111,16 @@ export default function Word_adventure() {
     }
   };
 
-  const hitReset = () => {
+/*   const hitReset = () => {
     window.location.reload(); // Refreshes the page
+  }; */
+
+
+
+  const hitReset = () => {
+    // Refreshes the page and redirects to a new game URL
+    window.location.replace('https://un2050.com/WordsAdventure');
   };
-
-
-
-
 
 
 
@@ -156,8 +159,8 @@ export default function Word_adventure() {
     >
       <h1 className="title">Word Adventure UN2050</h1>
       <p class="status-text">
-  A <span class="green">green</span> letter means it's in the right spot, while an <span class="orange">orange</span> letter means it's in the word but in a different position.
-</p>
+        A <span class="green">green</span> letter means it's in the right spot, while an <span class="orange">orange</span> letter means it's in the word but in a different position.
+      </p>
       <div className={`notification ${solutionFound && "notification--green"}`}>
         {notification}
       </div>
