@@ -15,8 +15,14 @@
 
 ---
  
+<div>
+  <a href="https://un2050.com/WordsAdventure">
+    <h1 style="color: #E91111">
+      <strong>Word Adventure UN2050 (Think and play rationally forever)</strong> - Project Portfolio 2 - JS
+    </h1>
+  </a>
+</div>
 
-# **_Word Adventure UN2050 (Think and play rationally forever) - Project Portfolio 2 - JavaScript_**
  
  
 **Word Adventure (Inspired by Wordle): A Test of Logic, Language, and Luck**
@@ -33,13 +39,13 @@ In conclusion, **Word Adventure** is more than just a game. It's a test of your 
 
 You can view the live site here - <a href="https://un2050.com/" target="_blank">Word Adventure UN2050</a>
 
-![Love Cross Words responsive design](src/assets/images/readme_images/devices_un2050.png)
+![Word Adventure responsive design](src/assets/images/readme_images/devices_un2050.png)
 ---
-![Love Cross Words responsive design](src/assets/images/readme_images/devices_un2050_2.png)
+![Word Adventure responsive design](src/assets/images/readme_images/devices_un2050_2.png)
 
 ---
-
-
+![Word Adventure responsive design](src/assets/images/readme_images/devices_un2050_3.png)
+ 
 
 
 # React + Vite
