@@ -155,6 +155,9 @@ export default function Word_adventure() {
       onKeyDown={handleKeyDown}
     >
       <h1 className="title">Word Adventure UN2050</h1>
+      <p class="status-text">
+  A <span class="green">green</span> letter means it's in the right spot, while an <span class="orange">orange</span> letter means it's in the word but in a different position.
+</p>
       <div className={`notification ${solutionFound && "notification--green"}`}>
         {notification}
       </div>

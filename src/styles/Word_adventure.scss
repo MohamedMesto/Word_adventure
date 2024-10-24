@@ -71,3 +71,28 @@
   outline: none; /* Remove default browser outline on focus */
   box-shadow: 0 0 5px rgba(0, 255, 0, 0.6); /* Subtle green shadow on focus */
 }
+
+
+
+
+.status-text {
+  font-size: 1rem;
+  color: #ffffff;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.status-text .green {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.status-text .orange {
+  color: #ff9800;
+  font-weight: bold;
+}
+
+.status-text span {
+  display: inline-block;
+  margin: 0 5px;
+}
