@@ -72,7 +72,7 @@
   .footer-column nav {
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: flex-start; 
     gap: 12px;
   }
   

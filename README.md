@@ -65,6 +65,17 @@ You can view the live site here - <a href="https://un2050.com/" target="_blank">
     - [Keyboard Section](#keyboard-section)
 - [Future Features](#future-features)
   - [Technologies Used](#technologies-used)
+- [Testing](#testing)
+  - [Code Validation](#code-validation)
+  - [Lighthouse Testing](#lighthouse-testing)
+  - [Accessibility Testing](#accessibility-testing)
+  - [Responsive Testing](#responsive-testing)
+  - [Manual Testing](#manual-testing)
+  - [Bugs Fixed](#bugs-fixed)
+    - [HTML Validation](#html-validation)
+      - [Solutions:](#solutions)
+    - [CSS Validation](#css-validation)
+    - [Responsiveness](#responsiveness)
 - [React + Vite](#react--vite)
 
 
@@ -329,9 +340,148 @@ Sure! Here’s an updated version of the **Technologies Used** section tailored 
 - **Git Bash:** A terminal tool used to manage version control and push changes to the GitHub repository.
 - **GitHub:** Utilized for hosting and deploying the website, ensuring version control and collaboration among team members.
 
----
+ 
 
-Feel free to modify any items or add additional technologies that align with your project!
+
+
+
+[Back to top](<#contents>)
+
+
+
+
+
+
+
+
+
+# Testing
+
+## Code Validation
+
+Love Cross Words has been validated via W3C HTML Validator and the W3C CSS Validator. There were 1 minor errors that came up for home page. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
+
+![W3C HTML Validator](src/assets/images/readme_images/html-validator.png)
+
+For Style.css and Style_cr.css files.
+
+![W3C CSS Validator](src/assets/images/readme_images/css-validator1.png)
+![W3C CSS Validator](src/assets/images/readme_images/css-validator2.png)
+
+For script_desc.js and script_fn.js
+
+![W3C JS Validator](src/assets/images/readme_images/js-validator.png)
+ 
+
+## Lighthouse Testing
+
+The website was also put through Lighthouse testing via Chrome Devtools which tests a site under 4 different headings; Performance, Accessibility, Best Practices and it tests it under mobile and desktop criteria.
+
+![Lighthouse testing](src/assets/images/readme_images/lighthouse_results.png)
+
+## Accessibility Testing 
+
+[A11y](https://color.a11y.com/) was used to check the colour contrast on the website for accessibility purposes which it passed.
+
+![A11y Contrast validator](src/assets/images/readme_images/color-contrast-validator.png)
+
+[Adobe Color](https://color.adobe.com/create/color-accessibility) was also used to test that the colour scheme was accessible for those with different types of blindness which it also succeded in doing.
+
+![Adobe Color Blind Safe Checker](src/assets/images/readme_images/adobe-color-blind-safe.png)
+
+ 
+
+## Responsive Testing
+
+Responsiveness was tested via a few different mediums manually, including Chrome Devtools, [The Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website.
+
+
+
+
+
+
+
+## Manual Testing
+
+In addition to the automated process above, manual testing was carried out on the site as well.
+
+- Home Page
+
+- Cross Word Game Area
+ 
+- Answer Section
+ 
+- Check CrossWords Puzzle Result Section (Button)
+
+all the previous sections checked manually to be sure that all work well.
+
+
+## Bugs Fixed
+
+### HTML Validation
+
+The following error was presented once the website was placed through W3C HTML Validator.
+
+![Adobe Color Blind Safe Checker](src/assets/images/readme_images/html_validation_error.png)
+ 
+
+
+It said that there are 2 errors:
+1. Font Loading Error: File not found: https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800;600: Bad Request
+
+2.  CSS Align-Items Error: .footer-column nav left is not a align-items value: left
+
+
+#### Solutions:
+1. change the font import to: @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@800;600&display=swap');
+2. that error suggests that there's an invalid value assigned to the align-items property in your CSS. The align-items property can only accept certain values such as flex-start, flex-end, center, baseline, or stretch.
+
+```
+.footer-column nav {
+    align-items: left; /* This is incorrect */
+}
+```
+We Change it to one of the valid values, such as:
+
+
+```
+.footer-column nav {
+    align-items: flex-start; /* This is valid */
+}
+```
+### CSS Validation
+
+There was an error by a size attribute. and already fixed
+
+![Adobe Color Blind Safe Checker](src/assets/images/readme_images/css_validation_error.png) 
+
+ 
+
+### Responsiveness
+
+Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, [Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) and a website, [Responsive Design Checker](https://responsivedesignchecker.com/) was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
+
+
+![Chrome Devtools responsive viewer](src/assets/images/readme_images/chrome_devtools_responsive_viewer.png)
+
+![Viewport Resizer Chrome Extension](src/assets/images/readme_images/chrome_extension_viewport_resizer.png)
+
+![Responsive Design Checker](src/assets/images/readme_images/responsive_design_checker.png)
+
+
+
+
+
+[Back to top](<#contents>)
+
+
+
+
+
+
+
+
+
 
 
 # React + Vite
