@@ -120,7 +120,7 @@ export default function Word_adventure() {
 
   const hitReset = () => {
     const baseUrl = window.location.host.includes('localhost')
-      ? 'http://localhost:5173/WordsAdventures' // or your local dev URL
+      ? './WordsAdventure' // or your local dev URL
       : 'https://un2050.com/WordsAdventure';
   
     window.location.replace(baseUrl);

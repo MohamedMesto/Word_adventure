@@ -349,20 +349,20 @@ The navigation menu is featured at the top of the page and contains links to the
 
 ## Code Validation
 
-Word Adventure has been validated via W3C HTML Validator and the W3C CSS Validator. There were 1 minor errors that came up for home page. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
+Word Adventure has been [validated](https://validator.w3.org/services) via [W3C HTML Validator](https://validator.w3.org/) and the W3C CSS Validator. There were 2 minor errors that came up for home page. This was immediately corrected and documented down below in [Bugs Fixed](<#bugs-fixed>).
 
 ![W3C HTML Validator](src/assets/images/readme_images/html_validator.png)
 
  
 
-For Styles files.
+**For Styles files.**
 
 ![W3C CSS Validator](src/assets/images/readme_images/css_validator1.png)
  
- 
+  
  
   
-For jsx files. 
+**For Javascript/JSX files.**
 
 ![W3C JS Validator](src/assets/images/readme_images/js_validator.png)
   
