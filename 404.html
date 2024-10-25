@@ -18,6 +18,32 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta http-equiv="refresh" content="0;url=/">
+  <script type="text/javascript">
+    // Redirect only if the URL does not already start with /un2050/
+    (function() {
+      var currentPath = window.location.pathname;
+      if (!currentPath.startsWith('/un2050/')) {
+        var redirectTo = currentPath.replace(/^\/un2050\//, '') + window.location.hash;
+        window.location.href = "/un2050/" + redirectTo;
+      }
+    })();
+  </script>
+</head>
+<body>
+  <h1>UN2050 -
+    United we stand 2050, divided we fall</h1>
+    <img src="src/assets/images/home/un2050_logo.png" alt="un2050 logo" width="400"/>
+
+</body>
+</html>
+
+
+
+
+<!-- <!DOCTYPE html>
+<html>
+<head>
   <script type="text/javascript">
     // Redirect only if the URL does not already start with /un2050/
     (function() {
@@ -37,5 +63,5 @@
 
 </body>
 </html>
-
+ -->
 
