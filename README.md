@@ -431,7 +431,7 @@ The [Adobe Color Accessibility Tool](https://color.adobe.com/create/color-access
 
 
 
-![Adobe Color Blind Safe Checker](src/assets/images/readme_images/adobe-color-blind-safe.png)
+ 
 
 
 ## Responsive Testing
