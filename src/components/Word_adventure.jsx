@@ -118,13 +118,34 @@ export default function Word_adventure() {
  
 
 
-  const hitReset = () => {
+/*   const hitReset = () => {
     const baseUrl = window.location.host.includes('localhost')
       ? './WordsAdventure' // or your local dev URL
       : 'https://un2050.com/WordsAdventure';
   
     window.location.replace(baseUrl);
   };
+ */
+
+  const hitReset = () => {
+    // Reset all game state variables to their initial values
+    setGuesses(["     ", "     ", "     ", "     ", "     ", "     "]);
+    setSolutionFound(false);
+    setActiveLetterIndex(0);
+    setNotification("");
+    setActiveRowIndex(0);
+    setFailedGuesses([]);
+    setCorrectLetters([]);
+    setPresentLetters([]);
+    setAbsentLetters([]);
+  
+    // Reset the solution to a new random word
+    SOLUTION =
+      potentialWords[Math.floor(Math.random() * potentialWords.length)];
+    console.log(SOLUTION); // Optionally log the new solution
+  };
+
+
 
 
 
