@@ -69,14 +69,21 @@ You can view the live site here - <a href="https://un2050.com/" target="_blank">
   - [Code Validation](#code-validation)
   - [Lighthouse Testing](#lighthouse-testing)
   - [Accessibility Testing](#accessibility-testing)
+      - [Lighthouse Accessibility Testing](#lighthouse-accessibility-testing)
+      - [WAVE Web Accessibility Evaluation Tool](#wave-web-accessibility-evaluation-tool)
+      - [Adobe Color Accessibility Tool](#adobe-color-accessibility-tool)
   - [Responsive Testing](#responsive-testing)
-  - [Manual Testing](#manual-testing)
+      - [The Viewport Resizer](#the-viewport-resizer)
+      - [The Responsive Design Checker](#the-responsive-design-checker)
+    - [Manual Testing](#manual-testing)
   - [Bugs Fixed](#bugs-fixed)
     - [HTML Validation](#html-validation)
-      - [Solutions:](#solutions)
     - [CSS Validation](#css-validation)
+      - [Solutions:](#solutions)
     - [Responsiveness](#responsiveness)
-- [React + Vite](#react--vite)
+    - [Deployment](#deployment)
+  - [Credits](#credits)
+  - [Tools \& Technologies](#tools--technologies)
 
 
 # Objective
@@ -373,48 +380,118 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 
 ![Lighthouse testing](src/assets/images/readme_images/lighthouse_results.png)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Accessibility Testing 
 
-[A11y](https://color.a11y.com/) was used to check the colour contrast on the website for accessibility purposes which it passed.
+#### Lighthouse Accessibility Testing 
+![Lighthouse Accessibility Testing](src/assets/images/readme_images/color_contrast_validator.png)
 
-![A11y Contrast validator](src/assets/images/readme_images/color-contrast-validator.png)
 
-[Adobe Color](https://color.adobe.com/create/color-accessibility) was also used to test that the colour scheme was accessible for those with different types of blindness which it also succeded in doing.
+
+
+
+
+
+
+
+#### WAVE Web Accessibility Evaluation Tool
+
+[WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used to check the colour contrast on the website for accessibility purposes which it passed. 
+
+![WAVE Web Accessibility Evaluation Tool Testing](src/assets/images/readme_images/color_accessibility_validator.png)
+
+#### Adobe Color Accessibility Tool 
+
+The [Adobe Color Accessibility Tool](https://color.adobe.com/create/color-accessibility) was used also to ensure the color palette met accessibility standards by testing contrast and simulating color blindness. This tool confirmed that the design maintains clarity and readability for users with visual impairments.
+ 
+
+![alt text](src/assets/images/readme_images/adobe_color_accessibility_validator.png)
+
+
+
 
 ![Adobe Color Blind Safe Checker](src/assets/images/readme_images/adobe-color-blind-safe.png)
 
- 
 
 ## Responsive Testing
 
 Responsiveness was tested via a few different mediums manually, including Chrome Devtools, [The Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website.
 
+#### The Viewport Resizer
+![alt text](viewport_resizer1.png)
+
+![alt text](viewport_resizer2.png)
+
+![alt text](viewport_resizer3.png)
+
+![alt text](viewport_resizer4.png)
+
+![alt text](viewport_resizer5.png)
+
+
+#### The Responsive Design Checker
 
 
 
 
 
+### Manual Testing
 
-## Manual Testing
+In addition to automated testing, manual testing was performed across key sections of Word Adventure to ensure smooth functionality and a seamless user experience.
 
-In addition to the automated process above, manual testing was carried out on the site as well.
+- **Home Page**: Verified that all navigation links work correctly, including:
+  - [Home](#)
+  - [Words Adventure](#)
+  - [Our Projects](#)
+  - [Our Team](#)
+  - [About Me](#)
+  - [Portfolio](#)
+  - [Media Hub](#)
+  - [Contact Us](#)  
+  Confirmed that the logo redirects to the homepage.
 
-- Home Page
+- **Game Area**: Confirmed that word input, letter coloring (green and orange), and feedback are functioning as expected.
 
-- Cross Word Game Area
+- **Keyboard & Controls**: Tested the on-screen keyboard, including the New Game and Backspace buttons.
+
+- **Game Completion**: Ensured proper display of feedback when all guesses are used.
+
+Each section was checked to ensure flawless operation.
+
  
-- Answer Section
- 
-- Check CrossWords Puzzle Result Section (Button)
-
-all the previous sections checked manually to be sure that all work well.
-
 
 ## Bugs Fixed
 
 ### HTML Validation
 
-The following error was presented once the website was placed through W3C HTML Validator.
+There were no HTML erorrs!
+
+### CSS Validation
+
+
+
+The following error was presented once the website was placed through CSS HTML Validator.
 
 ![Adobe Color Blind Safe Checker](src/assets/images/readme_images/html_validation_error.png)
  
@@ -443,28 +520,12 @@ We Change it to one of the valid values, such as:
     align-items: flex-start; /* This is valid */
 }
 ```
-### CSS Validation
 
-There was an error by a size attribute. and already fixed
-
-![Adobe Color Blind Safe Checker](src/assets/images/readme_images/css_validation_error.png) 
-
+ 
  
 
 ### Responsiveness
-
-Chrome Devtools was initially used to test the responsiveness of the website. However it proved to be somewhat inconsistent with results despite no code being changed. Therefore another Chrome extension was used, [Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) and a website, [Responsive Design Checker](https://responsivedesignchecker.com/) was used in conjunction with Chrome Devtools to make sure the website was fully responsive.
-
-
-![Chrome Devtools responsive viewer](src/assets/images/readme_images/chrome_devtools_responsive_viewer.png)
-
-![Viewport Resizer Chrome Extension](src/assets/images/readme_images/chrome_extension_viewport_resizer.png)
-
-![Responsive Design Checker](src/assets/images/readme_images/responsive_design_checker.png)
-
-
-
-
+ 
 
 [Back to top](<#contents>)
 
@@ -478,11 +539,64 @@ Chrome Devtools was initially used to test the responsiveness of the website. Ho
 
 
 
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+ 
+### Deployment
+
+The website was deployed to GitHub Pages using Yarn and the following steps:
+
+1. Ensure you have the [Yarn package manager](https://yarnpkg.com/getting-started/install) installed on your system.
+2. Navigate to your project directory in the terminal.
+3. Run the command: 
+   ```bash
+   yarn build
+   ```
+   This will create a production-ready version of your application.
+4. After building, navigate to the **Settings** tab in your GitHub repository.
+5. On the left-hand side, scroll down to the **Pages** section.
+6. Under the **Source** dropdown, select the branch called **main** and the folder called **root** (or **docs** if that’s where your build is located).
+7. Click **Save**. The page will display the deployed link at the top once saved.
+8. It may take a few minutes for the deployment to complete.
+
+[Back to top](<#contents>)
+
+
+ 
+## Credits
+
+- Fonts were sourced from [Google Fonts](https://fonts.google.com/).
+- Images on the website were sourced from [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
+- Images were compressed by [TinyPNG](https://tinypng.com/).
+- The color palette was created using [Coolors](https://coolors.co/).
+- Flexbox techniques were learned from a video by [LearnWebCode](https://www.youtube.com/watch?v=k32voqQhODc&ab_channel=LearnWebCode).
+- CSS Grid was learned through resources from [Traversy Media](https://www.youtube.com/watch?v=jV8B24rSN5o&t=7s&ab_channel=TraversyMedia) and [CSS Tricks](https://css-tricks.com/look-ma-no-media-queries-responsive-layouts-using-css-grid/).
+- Code for CSS transform scale properties was derived from [Learn with Param](https://learnwithparam.com/blog/scale-elements-on-hover-using-css/#:~:text=Often%20we%20get%20a%20requirement%20to%20scale%20images,%2F%2F%20shrinking%20in%20size.shrink%3Ahover%20%7B%20transform%3A%20scale%280.8%29%3B%20%7D).
+- Techniques for drawing a border inside a shape/image were sourced from [CodeLab](https://www.tutorialrepublic.com/codelab.php?topic=faq&file=draw-border-inside-div-element-with-css).
+- Image optimization techniques were learned from [Layout, Flywheel](https://getflywheel.com/layout/optimize-images-for-web/#file-type).
+- Some commands and statements were sourced from our course material at Code Institute.
+- Content sourced from [wordle-clone](https://github.com/wissamfawaz/wordle-clonem).
+- The README template was sourced from [love-running-2.0](https://code-institute-org.github.io//index.html).
+- The logo is sourced from [Qonversion](https://qonversion.io/apps/ios/crossword-puzzle-universe/1552720930).
+
+## Tools & Technologies
+
+- **Adobe Creative Suite**: Used for designing graphics, logos, and promotional materials, facilitating a cohesive visual identity.
+- **React**: Utilized for building dynamic user interfaces, ensuring efficient component management and interactivity.
+- **Vite**: A modern frontend build tool that streamlined development and optimized production builds for faster loading times.
+- **Visual Studio Code**: The primary code editor, providing a robust environment for development with extensions to enhance productivity.
+- **GitHub**: Used for version control and collaboration, allowing for seamless teamwork and project management.
+- **Lighthouse**: Employed for performance and accessibility testing, ensuring a high-quality user experience.
+
+ 
+
+
+
+
+
+
+
+
+ 
