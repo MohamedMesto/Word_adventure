@@ -25,9 +25,9 @@
       // Check if the current path starts with /un2050/ or is one of the valid paths
       if (!currentPath.startsWith('/un2050/') && !validPaths.includes(currentPath)) {
         // Remove the /un2050/ part from the current path if it exists
-        var redirectTo = currentPath.replace(/^\/un2050\//, '');
+        var redirectTo = currentPath.replace(/^\/un2050.com\//, '');
         // Redirect to the correct URL
-        window.location.href = "/un2050.com/" + redirectTo;
+        window.location.href = "/un2050/" + redirectTo;
       }
     })();
   </script>
