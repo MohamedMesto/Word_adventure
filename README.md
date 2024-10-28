@@ -426,12 +426,8 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 The [Adobe Color Accessibility Tool](https://color.adobe.com/create/color-accessibility) was used also to ensure the color palette met accessibility standards by testing contrast and simulating color blindness. This tool confirmed that the design maintains clarity and readability for users with visual impairments.
  
 
-![alt text](src/assets/images/readme_images/adobe_color_accessibility_validator.png)
+![adobe_color_accessibility_validator](src/assets/images/readme_images/adobe_color_accessibility_validator.png)
 
-
-
-
- 
 
 
 ## Responsive Testing
