@@ -4,6 +4,30 @@
     <script type="text/javascript">
         (function() {
             var currentPath = window.location.pathname;
+            // Redirect to the correct path without adding /un2050/
+            if (!currentPath.startsWith('/un2050/')) {
+                // Redirect to the root path plus the current path without /un2050
+                var redirectTo = currentPath.replace(/^\/un2050/, ''); // Remove /un2050 if present
+                window.location.href = redirectTo; // Construct URL without the leading slash
+            }
+        })();
+    </script>
+</head>
+<body>
+    <h1>UN2050 - United we stand 2050, divided we fall</h1>
+    <img src="/src/assets/images/home/un2050_logo.png" alt="un2050 logo" width="400"/>
+    <a href="/">Return to Home</a>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript">
+        (function() {
+            var currentPath = window.location.pathname;
             // Only redirect if the path does not start with /un2050/
             if (!currentPath.startsWith('/un2050/')) {
                 var redirectTo = currentPath.replace(/^\/un2050\//, ''); // Remove only one occurrence
@@ -18,3 +42,9 @@
     <a href="/">Return to Home</a>
 </body>
 </html>
+
+
+
+
+
+
