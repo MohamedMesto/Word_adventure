@@ -384,6 +384,7 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 
 
 
+ 
 
 
 
@@ -395,8 +396,7 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 
 
 
-
-
+ 
 
 
 
@@ -412,38 +412,55 @@ The website was also put through Lighthouse testing via Chrome Devtools which te
 
 
 
-
+![alt text](image.png)
 
 
 #### WAVE Web Accessibility Evaluation Tool
 
 [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/) was used to check the colour contrast on the website for accessibility purposes which it passed. 
 
-![WAVE Web Accessibility Evaluation Tool Testing](src/assets/images/readme_images/color_accessibility_validator.png)
+![WAVE Web Accessibility Evaluation Tool Testing](src/assets/images/readme_images/WAVE_Web_color_accessibility_validator.png)
+
+
+
+
+ 
+
+
+
+
+
+
+
 
 #### Adobe Color Accessibility Tool 
 
 The [Adobe Color Accessibility Tool](https://color.adobe.com/create/color-accessibility) was used also to ensure the color palette met accessibility standards by testing contrast and simulating color blindness. This tool confirmed that the design maintains clarity and readability for users with visual impairments.
+  
+
+![adobe_color_accessibility_validator1](src/assets/images/readme_images/adobe_color_accessibility_validator1.png)
+
+![adobe_color_accessibility_validator2](src/assets/images/readme_images/adobe_color_accessibility_validator2.png)
  
 
-![adobe_color_accessibility_validator](src/assets/images/readme_images/adobe_color_accessibility_validator.png)
-
-
-
 ## Responsive Testing
-
+ 
 Responsiveness was tested via a few different mediums manually, including Chrome Devtools, [The Viewport Resizer](https://chrome.google.com/webstore/detail/viewport-resizer-%E2%80%93-respon/kapnjjcfcncngkadhpmijlkblpibdcgm?hl=en) chrome extension and [The Responsive Design Checker](https://responsivedesignchecker.com/) website.
 
 #### The Viewport Resizer
-![alt text](viewport_resizer1.png)
+![viewport_resizer1](src/assets/images/readme_images/viewport_resizer1.png)
 
-![alt text](viewport_resizer2.png)
+![viewport_resizer2](src/assets/images/readme_images/viewport_resizer2.png)
 
-![alt text](viewport_resizer3.png)
+![viewport_resizer3](src/assets/images/readme_images/viewport_resizer3.png)
 
-![alt text](viewport_resizer4.png)
+![viewport_resizer4](src/assets/images/readme_images/viewport_resizer4.png)
 
-![alt text](viewport_resizer5.png)
+![viewport_resizer5](src/assets/images/readme_images/viewport_resizer5.png)
+
+![viewport_resizer6](src/assets/images/readme_images/viewport_resizer6.png)
+
+![viewport_resizer7](src/assets/images/readme_images/viewport_resizer7.png)
 
 
 #### The Responsive Design Checker
