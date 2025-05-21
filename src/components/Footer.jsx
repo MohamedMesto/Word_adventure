@@ -17,7 +17,7 @@ const Footer = () => {
           {/* Händlerbund Column */}
           <div className="footer-column">
             <a href='https://logo.haendlerbund.de/show.php?uuid=ea7bf7e1-5e26-11ef-a43e-0242ac130003-3112389951'>
-              <h3>Honored to be members of the Händlerbund</h3>
+              <h3>Honored to be a member of the Händlerbund</h3>
               <img src={haendlerbund} alt="Händlerbund" className="haendlerbund-logo"/>
             </a>
           </div>
