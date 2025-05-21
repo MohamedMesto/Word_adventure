@@ -22,11 +22,11 @@ const Projects = () => {
     },
     {
       img: project2,
-      titleLink: 'https://Loqta2050.com/',
-      websiteLink: 'https://Loqta2050.com/',
+      titleLink: 'https://Dealna.de/',
+      websiteLink: 'https://Dealna.de/',
       websiteName: 'Our E-Commerce Website', 
-      title: 'www.Loqta2050.com',
-      description: `At Loqta2050.com, we value our customers' unique needs by offering a wide range of personal, home, and car electronic accessories. Our detailed customer profiles help us tailor recommendations and ensure a personalized shopping experience that meets every customer's lifestyle and preferences.`,
+      title: 'www.Dealna.de',
+      description: `At Dealna.de, we value our customers' unique needs by offering a wide range of personal, home, and car electronic accessories. Our detailed customer profiles help us tailor recommendations and ensure a personalized shopping experience that meets every customer's lifestyle and preferences.`,
     },
     {
       img: project3,
