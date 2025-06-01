@@ -46,11 +46,11 @@ const Projects = () => {
     },
     {
       img: project5,
-      titleLink: 'https://Loqta2050.de/',
-      websiteLink: 'https://Loqta2050.de/',
+      titleLink: 'https://Dealnah.de/',
+      websiteLink: 'https://Dealnah.de/',
       websiteName: 'Delivering personalized deals and exclusive discounts for a premium shopping experience. ', 
-      title: 'www.Loqta2050.de',
-      description: `At Loqta2050.de, we value our customers as our top priority, offering tailored deals and exclusive discounts to ensure a premium shopping experience. Discover personalized offers that cater to your needs, delivering exceptional value in no time.`,
+      title: 'www.Dealnah.de',
+      description: `At Dealnah.de, we value our customers as our top priority, offering tailored deals and exclusive discounts to ensure a premium shopping experience. Discover personalized offers that cater to your needs, delivering exceptional value in no time.`,
     },
     {
       img: project6,

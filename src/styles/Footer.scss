@@ -11,8 +11,16 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-bottom: 20px;
+ 
   }
   
+  .rounded-border {
+    border-radius: 12px;
+    border: 2px solid #ccc;
+    width:200;
+    height:150;
+}
+
   .footer-column,
   .footer-column-about {
     flex: 1;
